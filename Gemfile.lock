@@ -1,0 +1,17 @@
+PATH
+  remote: .
+  specs:
+    fuel_calculators (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  fuel_calculators!
+
+BUNDLED WITH
+   2.5.9

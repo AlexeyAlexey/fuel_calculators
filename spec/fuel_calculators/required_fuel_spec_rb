@@ -1,0 +1,13 @@
+# frozen_string_literal: true
+require 'spec_helper'
+
+RSpec.describe FuelCalculators::RequiredFuel do
+  it "land earth" do
+    expect(described_class.calc(28801, [[:land, 'earth']], FuelCalculators::RequiredFuelFormulas.new)).to eq 13447
+  end
+
+  it "land earth" do
+    route = [[:launch, 'earth'], [:land, 'moon'], [:launch, 'moon'], [:land, 'earth']]
+    expect(described_class.calc(28801, route, FuelCalculators::RequiredFuelFormulas.new)).to eq 51898
+  end
+end

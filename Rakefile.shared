@@ -1,0 +1,6 @@
+# frozen_string_literal: true
+
+require 'fuel_calculators'
+
+path = File.expand_path(__dir__)
+Dir.glob("#{path}/lib/fuel_calculators/tasks/**/*.rake").each { |f| import f }

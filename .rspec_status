@@ -1,0 +1,10 @@
+example_id                                                      | status | run_time        |
+--------------------------------------------------------------- | ------ | --------------- |
+./spec/fuel_calculators/required_fuel/calculator_spec.rb[1:1:1] | passed | 0.00132 seconds |
+./spec/fuel_calculators/required_fuel/calculator_spec.rb[1:1:2] | passed | 0.00027 seconds |
+./spec/fuel_calculators/required_fuel/calculator_spec.rb[1:2:1] | passed | 0.00018 seconds |
+./spec/fuel_calculators/required_fuel/calculator_spec.rb[1:2:2] | passed | 0.00029 seconds |
+./spec/fuel_calculators/required_fuel/formulas_spec.rb[1:1:1]   | passed | 0.00016 seconds |
+./spec/fuel_calculators/required_fuel/formulas_spec.rb[1:2:1]   | passed | 0.00016 seconds |
+./spec/fuel_calculators/required_fuel/formulas_spec.rb[1:3:1]   | passed | 0.00183 seconds |
+./spec/fuel_calculators_spec.rb[1:1]                            | passed | 0.00014 seconds |
